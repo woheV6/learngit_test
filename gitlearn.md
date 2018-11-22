@@ -1,5 +1,6 @@
 - 新建分支：git checkout -b newDev 如果远程仓库有则从远程仓库拉取。没有则在本地新建分支 newDev
 - 将本地新建的分支提交到远程仓库：git push origin newDev
+- 切换分支：git checkout 'your 分支名'
 - 合并分支：git merge newDev
 - 删除本地分支：git branch -D newDev
 - 删除远程分支：git push origin :newDev
