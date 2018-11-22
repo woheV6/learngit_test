@@ -6,3 +6,4 @@
 - 删除远程分支：git push origin :newDev
 - 将本地与远程关联起来： git push -u origin newDev,这样才能 push 和 pull
 - master
+- dev01000
