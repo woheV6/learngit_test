@@ -7,3 +7,8 @@
 - 将本地与远程关联起来： git push -u origin newDev,这样才能 push 和 pull
 - 设置本地分支 test 与远程分支 dev 连接：git branch --set-upstream-to=origin/dev dev
   - 提交的时候 必须带上分支名：git push origin HEAF:dev 或者 git push origin test
+
+### tag
+
+- 创建 tag：git tag -a tag-name -m 'tag 描述' commit-id
+-  查看 tag：git show tag-name
