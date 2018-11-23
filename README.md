@@ -47,5 +47,9 @@
 
 ### gitignore 忽略文件)
 
-- 在根目录创建 .gitignore 文件
+- 在根目录创建 .gitignore 文件.
 - 如果该文件在 .gitignore 文件中了，你想强制加到版本库中，git add -f <file-name>
+
+### 合并分支的某次 tag
+
+- git checkout branch-name \$(git diff-tree --no-commit-id --name-only -r tag-name)
