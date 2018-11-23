@@ -5,5 +5,5 @@
 - 删除本地分支：git branch -D newDev
 - 删除远程分支：git push origin :newDev
 - 将本地与远程关联起来： git push -u origin newDev,这样才能 push 和 pull
-- 设置本地分支与远程分支连接：git branch --set-upstream-to=origin/dev dev
-- test
+- 设置本地分支 test 与远程分支 dev 连接：git branch --set-upstream-to=origin/dev dev
+  - 提交的时候 必须带上分支名：git push origin HEAF:dev 或者 git push origin test
