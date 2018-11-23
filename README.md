@@ -45,7 +45,7 @@
 - 推送所有 tag 到远程分支 origin： git push origin --tags
 - 删除远程 tag：git push origin :refs/tags/<tag-name>
 
-### gitignore 忽略文件
+### gitignore 忽略文件)
 
 - 在根目录创建 .gitignore 文件
 - 如果该文件在 .gitignore 文件中了，你想强制加到版本库中，git add -f <file-name>
