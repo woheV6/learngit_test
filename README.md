@@ -1,4 +1,4 @@
-# learngit_test
+# git 学习笔记
 
 ### 初始化 git 仓库
 
@@ -15,7 +15,7 @@
 - 主目录里找到.ssh 目录，里面有 id_rsa 和 id_rsa.pub 两个文件，这两个就是 SSH Key 的秘钥对，id_rsa 是私钥，不能泄露出去，id_rsa.pub 是公钥
 - 2 步：登陆 GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH Key”，填上任意 Title，在 Key 文本框里粘贴 id_rsa.pub 文件的内容：
 
-### 关联 cangku
+### 关联 仓库
 
 - git remote add origin 你的仓库地址
 - 本地库的所有内容推送到远程库上：git push -u origin master
