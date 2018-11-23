@@ -1,4 +1,31 @@
 # learngit_test
+
+### 初始化 git 仓库
+
+- git init
+- 将文件添加的版本库 git add <file>
+- git commit -m '蛛丝马迹'
+- pull
+- push
+
+### 生成 SSH
+
+- ssh-keygen -t rsa -C "youremail@example.com" (一路回车就可以了)
+
+- 主目录里找到.ssh 目录，里面有 id_rsa 和 id_rsa.pub 两个文件，这两个就是 SSH Key 的秘钥对，id_rsa 是私钥，不能泄露出去，id_rsa.pub 是公钥
+- 2 步：登陆 GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH Key”，填上任意 Title，在 Key 文本框里粘贴 id_rsa.pub 文件的内容：
+
+### 关联 cangku
+
+- git remote add origin 你的仓库地址
+- 本地库的所有内容推送到远程库上：git push -u origin master
+
+### 克隆远程仓库
+
+- git clone 你的远程仓库地址
+
+### 分支
+
 - 新建分支：git checkout -b newDev 如果远程仓库有则从远程仓库拉取。没有则在本地新建分支 newDev
 - 将本地新建的分支提交到远程仓库：git push origin newDev
 - 切换分支：git checkout 'your 分支名'
