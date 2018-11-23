@@ -5,6 +5,4 @@
 - 删除本地分支：git branch -D newDev
 - 删除远程分支：git push origin :newDev
 - 将本地与远程关联起来： git push -u origin newDev,这样才能 push 和 pull
-- dev01000
-- 今天要解决 10 个 bug
-- 明天学习
+- 设置本地分支与远程分支连接：git branch --set-upstream-to=origin/dev dev
