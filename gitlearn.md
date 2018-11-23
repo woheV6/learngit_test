@@ -11,5 +11,5 @@
 ### tag
 
 - 创建 tag：git tag -a tag-name -m 'tag 描述' commit-id
--  查看 tag：git show tag-name
+- 查看 tag：git show tag-name
 - 删除 tag：git tag -d tag-name
